@@ -1,9 +1,8 @@
 # Ignore checkpoints and temp files
 .ipynb_checkpoints/
 
-# Ignore data and model files
+# Ignore data files
 data/
-models/
 
 # Ignore system files
 *.DS_Store
