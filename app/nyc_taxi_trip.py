@@ -3,11 +3,13 @@ import joblib
 import numpy as np
 import pandas as pd
 import pydeck as pdk
+import os
 
 # ----------------------------
-# Load Model
+# Load Model safely
 # ----------------------------
-model = joblib.load("random_forest_model.pkl")  # same folder
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "random_forest_model.pkl")
+model = joblib.load(MODEL_PATH)
 
 # ----------------------------
 # Page Config
