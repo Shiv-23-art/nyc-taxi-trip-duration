@@ -121,3 +121,5 @@ if st.button("🚀 Predict Trip Duration"):
 
     except Exception as e:
         st.error(f"⚠️ Error during prediction: {e}")
+
+# Minor formatting tweak for GitHub commit refresh
